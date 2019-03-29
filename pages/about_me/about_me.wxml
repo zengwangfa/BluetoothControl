@@ -1,0 +1,10 @@
+<button class="about-author" type="primary"  bindtap="author"> {{author}} </button> <!--  按键-->
+
+<view class='about-img'><image src= "{{github_icon}}" class="github-img" background-size="cover" mode="scaleToFill"></image></view>
+
+<view class='about-img'><image src= "{{csdn_icon}}" class="csdn-img" background-size="cover" mode="scaleToFill"></image></view>
+
+<view class='about-github_url'>{{github_url}}</view>
+<view class='about-csdn_url'>{{csdn_url}}</view>
+
+

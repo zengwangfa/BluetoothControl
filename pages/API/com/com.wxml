@@ -1,0 +1,48 @@
+<!--pages/com/com.wxml-->
+
+<view class="empty_tip " >
+
+  <view class="container">
+  <switch class='switch' bindchange="musicswitchChange">Music</switch>
+
+  <button class='button' type='' class="button" bindtap="ledbutton"  > 
+
+    <view wx:if="{{boolean==true}}">
+        <image class ='ledpicture'  src="../../../image/ledOn.png"></image> 
+    </view>
+    <view wx:if="{{boolean==false}}">
+        <image class ='ledpicture'  src="../../../image/ledOff.png"></image> 
+    </view>
+  </button> 
+  </view>
+
+  
+  <view class="receiver_container">{{receiverText}}</view>
+
+  <view class="section">
+    <view class="flex-wrp" style="flex-direction:row; justify-content:space-between;">
+      <view class="flex-wrp" style="flex-direction:column;">
+        <view class="flex-item bc_red">RX: <span class="num">{{receiverLength}}</span></view>
+        <view class="flex-item bc_green">TX: <span class="num">{{sendLength}}</span></view>
+      </view>
+      <view style="float: right;"><button type="button" bindtap="clearReceiverText" >清除</button></view>
+    </view>
+  </view>
+
+  <view class="send_container">
+    <textarea style="width: 100%;height: 100%;background: #F0F0F0;" auto-focus="true" cursor-spacing="100" value="{{sendText}}" maxlength="1024" bindblur="updateSendText" placeholder="输入发送数据..." placeholder-class="placeholder"/>
+  </view>
+
+  <view class="group">
+    <view class="ops">
+      <view class="ops_label">定时发送：</view>
+      <view class="ops_content">
+        <checkbox-group bindchange="timeChange">
+          <checkbox value="true"/>
+        </checkbox-group>
+        <input value="{{time}}" bindblur="updateTime" />ms
+      </view>
+    </view>
+    <button type="button" class="send" bindtap="manualSend">发送</button>
+  </view>
+</view>

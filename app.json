@@ -1,0 +1,62 @@
+{
+  "pages":[
+    "pages/init_interface/init_interface",
+    "pages/application/application",
+    "pages/about_ETA/about_ETA",
+    
+    "pages/API/accelerometer/on-accelerometer-change",
+    "pages/API/characteristic/characteristic",
+    "pages/API/search/search",
+    "pages/API/com/com",
+    "pages/API/service/service",
+
+    "pages/detail/detail",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about_me/about_me"
+
+  ],
+
+  "tabBar":{ 
+    "list":[
+      {
+        "pagePath": "pages/init_interface/init_interface",
+        "text": "INIT",
+        "iconPath": "image/computer.png",
+        "selectedIconPath": "image/computer_H.png"
+      },
+      {
+
+        "pagePath":"pages/application/application",  
+        "text":"APP",
+        "iconPath": "image/application.png",
+        "selectedIconPath": "image/application_H.png"
+      },
+      {
+
+        "pagePath": "pages/about_ETA/about_ETA",
+        "text": "EAT",
+        "iconPath": "image/chip.png",
+        "selectedIconPath": "image/chip_H.png"
+      }
+
+    ]
+  },
+
+
+  "window":{
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "集大电协ETA",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+
+}

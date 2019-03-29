@@ -1,0 +1,37 @@
+/* pages/detail/detail.wxss */
+.label {
+  position: relative;
+  padding: 0 5px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #EEE;
+  font-size: 12px;
+  color: #757575;
+}
+.type {
+  position: absolute;
+  right: 5px;
+  height: 50px;
+  line-height: 50px;
+}
+.label .name {
+  font-weight: 500;
+  font-size: 15px;
+  color: #2d2d2d;
+}
+.item {
+  padding: 15px 5px;
+  font-size: 12px;
+  color: #757575;
+  border-bottom: 1px solid #EEE;
+}
+.item .uuid {
+  color: #757575;
+}
+.item .uuid .content {
+  color: #2d2d2d
+}
+.item .sub {
+  font-size: 14px;
+  font-weight: 500;
+}

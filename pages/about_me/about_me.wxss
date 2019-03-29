@@ -1,0 +1,35 @@
+.github-img{
+  text-align: center;
+  width: 120rpx;
+  height:120rpx;
+  margin: 500rpx 0rpx 0rpx 20rpx;    /*上 右 下 左*/
+  }
+.csdn-img{
+  text-align: center;
+  width: 120rpx;
+  height:120rpx;
+  margin: 20rpx 0rpx 0rpx 20rpx;    /*上 右 下 左*/
+  }
+
+
+
+.about-github_url{
+  text-align: left;
+  font-size: 20px;
+  margin: -240rpx 0rpx 0rpx 160rpx;    /*上 右 下 左*/
+  line-height: 1.2;
+  }
+
+  .about-csdn_url{
+  text-align: left;
+  font-size: 20px;
+  margin: 110rpx 0rpx 0rpx 160rpx;    /*上 右 下 左*/
+  line-height: 1.2;
+  }
+
+.about-author{
+  margin-top: 50rpx;
+  font-size:1.1em;
+  width: 230px;
+}
+

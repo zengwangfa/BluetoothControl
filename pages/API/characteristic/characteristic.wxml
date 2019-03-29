@@ -1,0 +1,16 @@
+<view class="label">
+  <p>DeviceName：<b class="name">{{name}}</b></p>
+  <div class="type">Characteristic UUID</div>
+</view>
+<view wx:for="{{characteristic}}" class="item" data-characteristicId="{{item.uuid}}" data-properties="{{item.properties}}" bindtap="operation">
+  <view class="uuid">UUID：<span class="content">{{item.uuid}}</span></view>
+  <view class="sub">
+    properties: 
+    <span class="content">
+      {{item.properties.read ? ' Read' : ''}}
+      {{item.properties.write ? ' Write' : ''}}
+      {{item.properties.notify ? ' Notify' : ''}}
+      {{item.properties.indicate ? ' Indicate' : ''}}
+    </span>
+  </view>
+</view>

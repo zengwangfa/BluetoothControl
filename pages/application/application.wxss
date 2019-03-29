@@ -1,0 +1,53 @@
+/**application.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.picture
+{
+    margin: 200rpx;    /*上 右 下 左*/
+  display: flex;
+  flex-direction: row;  
+}
+.bluetoothpicture{
+  
+  margin-left:10rpx;
+  width: 300rpx;
+  height: 230rpx;
+
+}
+
+
+.accpicture {
+  position: relative;
+  align-items:center;
+  width: 350rpx;
+  height: 270rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+
+  margin: -210rpx 520rpx 0rpx 0rpx;    /*上 右 下 左*/
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+  margin: 0rpx 530rpx 0rpx 0rpx;    /*上 右 下 左*/
+}
+
+.app-bluetooth
+{
+  color:blue;
+   right: 5rpx;
+  margin: 30rpx 0rpx 0rpx 0rpx;    /*上 右 下 左*/
+}
+.app-acc-key
+{
+  color:#aaa;
+  right: 5rpx;
+  margin: 30rpx 0rpx 0rpx 0rpx;    /*上 右 下 左*/
+}

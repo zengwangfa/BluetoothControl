@@ -1,0 +1,29 @@
+.in-img{
+  text-align: center;
+  width: 350px;
+  height:210px;
+  }
+
+.about-author{
+  margin-top: 120px;
+  font-size:1.1em;
+  width: 230px;
+}
+
+.about-spirit{
+  font-family: "华文行楷";
+  text-align: center;
+  color:red;
+  margin: 50rpx 0rpx 0rpx 130rpx;    /*上 右 下 左*/
+  font-size: 30px;
+  line-height: 1.7;
+}
+
+.about-version{
+  text-align: center;
+  font-size: 20px;
+  margin: 120rpx 0;
+  line-height: 1.2;
+  }
+
+

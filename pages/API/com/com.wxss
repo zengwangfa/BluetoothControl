@@ -1,0 +1,119 @@
+
+.container {
+flex-direction: row; /*显示为一行 */
+margin: -300rpx 0rpx -1300rpx 130rpx;    /*上 右 下 左*/
+}
+
+button::after{
+border: none;
+}
+.ledpicture
+{
+    width:150rpx;
+    height:150rpx;
+}
+
+.bg_black {
+
+  height: 200rpx;
+
+  background: lightskyblue;
+
+}
+
+.bg_red {
+
+  height: 200rpx;
+
+  background: lightpink;
+
+}
+
+ 
+.label {
+  position: relative;
+  padding: 0 5rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 12rpx;
+  color: #757575;
+  background-color: #EEE;
+}
+.label button {
+  position: absolute;
+  top: 5rpx;
+  right: 5rpx;
+  padding: 0 1.5em;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 12rpx;
+  text-align: center;
+}
+.receiver_container {
+  margin: 5rpx;
+//  width: 98%;
+  height: 60%;
+  border: 1rpx solid #2d2d2d;
+  overflow-x: scroll;
+}
+.send_container {
+  margin: 5rpx;
+  height: 15%;
+  border: 1rpx solid #2d2d2d;
+//  overflow: auto;
+}
+.placeholder {
+  color: #dedede;
+//  height: 15%;
+}
+.send {
+  margin: 0 5px;
+}
+.group {
+  margin: 0 5rpx;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.group .ops {
+  margin-right: 50rpx;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+.ops_label {
+  margin-bottom: 10rpx;
+  font-size: 30rpx;
+  color: #A0A0A0;
+}
+.ops_content {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+}
+.group .ops input {
+  margin-right: 10rpx;
+  text-indent: 5rpx;
+  border: 1rpx solid #757575;
+}
+.group button {
+  width: 100%;
+  float: right;
+}
+
+.flex-wrp {display: flex;}
+.bc_green {color: #757575;background: rgba(0, 255, 0, 0.2);width:400rpx; height: 49;}
+.bc_red   {color: #757575;background: rgba(255, 0, 0, 0.2);width:400rpx; height: 49;}
+.bc_blue  {color: #757575;background: rgba(0, 0, 255, 0.2);width:400rpx; height: 49;}
+
+.empty_tip{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;/*垂直*/
+  justify-content: initial;/*水平*/
+}

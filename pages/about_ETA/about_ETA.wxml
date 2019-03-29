@@ -1,0 +1,9 @@
+<view class='about-img'><image src= "{{pictrue}}" class="in-img" background-size="cover" mode="scaleToFill"></image></view>
+
+
+
+<button class="about-author" type="primary"  bindtap="author"> {{author}} </button> <!--  按键-->
+
+<text class="about-spirit">{{spirit}}</text>
+
+<view class='about-version'>{{version}}</view>

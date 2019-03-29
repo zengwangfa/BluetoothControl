@@ -1,0 +1,9 @@
+<!--detail.wxml-->
+<view class="warp">
+
+<view class='title'>{{info.title}}</view>
+<view class='detail-time'>{{time}}</view>
+
+<button type="primary"  bindtap="return_key"> {{return_key}} </button>
+
+</view>

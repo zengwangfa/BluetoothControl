@@ -1,0 +1,9 @@
+<!--pages/search/search.wxml-->
+<view class="label">附近的Bluetooth设备</view>
+<scroll-view>
+<view wx:for="{{devs}}" class="item" data-dev="{{item}}" data-name="{{item.name}}" bindtap="connect">
+  <view class="rss">RSSI：{{item.RSSI}}</view>
+  <view class="name">{{item.name || 'N/A'}}</view>
+  <view class="uuid">DeviceId：{{item.deviceId}}</view>
+</view>
+</scroll-view>

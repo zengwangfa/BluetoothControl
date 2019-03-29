@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+
+   <view class='picture'>
+    <navigator url="../API/search/search" hover-class="navigator-hover">
+   
+        <image src="{{bluetoothpicture}}" class="bluetoothpicture" background-size="cover" mode="scaleToFill"></image>
+          <!--button class="app-bluetooth" type="primary"  bindtap="bluetooth"> {{bluetooth}} </button-->
+    </navigator>
+
+    <navigator url="../API/accelerometer/on-accelerometer-change" hover-class="navigator-hover">
+  
+        <image src="{{accpicture}}" class="accpicture" background-size="cover" mode="scaleToFill"></image>
+        
+  <!--button class="app-acc-key" type="primary"  bindtap="accelerometer"> {{accelerometer}} </button-->
+     </navigator>
+    </view>
+
+
+
+
+
+
+
+
+</view>
