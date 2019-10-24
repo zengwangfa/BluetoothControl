@@ -12,5 +12,6 @@
 ![输入图片说明](/docs/communication1.jpg "通信界面.jpg")
 ![输入图片说明](/docs/communication2.jpg "通信界面(点亮).jpg")
 
-
+### 赞赏
+![赞赏](/docs/给赞.png "赞赏")
 
